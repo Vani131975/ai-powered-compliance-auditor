@@ -28,24 +28,24 @@ Legal AI Contract Compliance Auditor is a web-based platform that performs claus
 
 ## Backend Setup
 
-# Step 1: Navigate to backend folder
+### Step 1: Navigate to backend folder
 
 cd backend
 
-# Step 2: Create and activate virtual environment
+### Step 2: Create and activate virtual environment
 
 python -m venv venv
 venv\Scripts\activate # For Windows
 
-# or
+#### or
 
 source venv/bin/activate # For macOS/Linux
 
-# Step 3: Install dependencies
+### Step 3: Install dependencies
 
 pip install -r requirements.txt
 
-# Step 4: Run the Flask app
+### Step 4: Run the Flask app
 
 python app.py
 
@@ -54,15 +54,15 @@ bash
 Copy
 Edit
 
-# Step 1: Navigate to frontend folder
+### Step 1: Navigate to frontend folder
 
 cd legal-ai-contract-guardian-main
 
-# Step 2: Install dependencies
+### Step 2: Install dependencies
 
 npm install
 
-# Step 3: Start development server
+### Step 3: Start development server
 
 npm run dev
 
