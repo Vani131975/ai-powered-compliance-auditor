@@ -61,3 +61,8 @@ uploads/
 # Notebook checkpoints
 # ------------------
 .ipynb_checkpoints/
+
+# Model weights (large files)
+*.safetensors
+backend/legalbert-finetuned/
+backend/legalbert_multi_model/
