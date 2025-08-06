@@ -1,0 +1,57 @@
+{
+  "best_global_step": 26,
+  "best_metric": 0.9679487347602844,
+  "best_model_checkpoint": "./legalbert-finetuned\\checkpoint-26",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 26,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.38461538461538464,
+      "grad_norm": 1.2705186605453491,
+      "learning_rate": 1.8615384615384616e-05,
+      "loss": 0.6869,
+      "step": 10
+    },
+    {
+      "epoch": 0.7692307692307693,
+      "grad_norm": 1.7206857204437256,
+      "learning_rate": 1.707692307692308e-05,
+      "loss": 0.6128,
+      "step": 20
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9679487347602844,
+      "eval_loss": 0.51344233751297,
+      "eval_runtime": 2.9188,
+      "eval_samples_per_second": 8.908,
+      "eval_steps_per_second": 2.398,
+      "step": 26
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 130,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 6645940139520.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

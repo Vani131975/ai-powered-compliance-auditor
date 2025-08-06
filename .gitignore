@@ -1,0 +1,63 @@
+# ------------------
+# Logs
+# ------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------
+# Node (frontend) related
+# ------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ------------------
+# Python (backend) related
+# ------------------
+venv/
+.env
+__pycache__/
+*.pyc
+*.pkl
+*.pt
+*.bin
+
+# ------------------
+# Data files
+# ------------------
+*.csv
+*.xlsx
+*.tmp
+*.swp
+
+# ------------------
+# User-uploaded content
+# ------------------
+uploads/
+*.pdf
+*.docx
+*.txt
+
+# ------------------
+# Editor/IDE config
+# ------------------
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ------------------
+# Notebook checkpoints
+# ------------------
+.ipynb_checkpoints/
